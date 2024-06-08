@@ -1,0 +1,8 @@
+create database student;
+show databases;
+use student
+create table stu(stu_id int,f_name varchar(50),l_name varchar(50),dep_id int,salary int);
+desc stu;
+insert into stu(stu_id,f_name,l_name,dep_id,salary)
+values(101,"bharath","waj",200,50000);
+select * from stu;
