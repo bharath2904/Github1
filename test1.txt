@@ -6,3 +6,4 @@ desc stu;
 insert into stu(stu_id,f_name,l_name,dep_id,salary)
 values(101,"bharath","waj",200,50000);
 select * from stu;
+select f_name from stu;
